@@ -1,0 +1,9 @@
+export const LOGIN_USER = "LOGIN_USER";
+export const LOGIN_USER_SUCCESS = "LOGIN_USER_SUCCESS";
+export const LOGIN_USER_FAIL = "LOGIN_USER_FAIL";
+export const LOG_OUT_USER = "LOG_OUT_USER";
+export const USER_REGISTER = "USER_REGISTER";
+export const USER_REGISTER_FAIL = "USER_REGISTER_FAIL";
+export const UPDATE_PROFILE = "UPDATE_PROFILE";
+export const SET_LOADING = "SET_LOADING";
+export const GET_USERS = "GET_USERS";

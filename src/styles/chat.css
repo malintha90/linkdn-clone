@@ -1,0 +1,129 @@
+.chatsPage{
+    margin-top: 80px;    
+  
+}
+.chatImage{
+    width:30px;
+    height:30px;
+}
+.chatImage {
+    border-radius: 30%;
+    height: 45px;
+    margin-top: -20px;
+ }
+  
+.msgText {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-wrap: break-word;
+    margin-bottom: 15px;
+  }
+  
+  .msg {
+    display: flex;
+    margin-top: 5px;
+    margin-right: 20px;
+    border-radius: 3000px;
+    box-shadow: 0 0 10px rgb(164, 164, 164);
+    align-items: center;
+  }
+  
+  .sent {
+    background-color: #395dff;
+    color: white;
+    border-top-right-radius: 1000px;
+    flex-direction: row-reverse;
+    padding: 5px 5px 0 5px;
+    text-align: end;
+    float: right;
+  }
+  
+  .received {
+    border: 1px solid lightgray;
+    background-color: #FAFAFA;
+    border-top-left-radius: 1000px;
+    float: left;    
+    margin-bottom: 1px;
+    margin-left:15px;
+  }
+  
+  .send-message {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    border-top: 1px solid lightgray;
+    margin-left: -5px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #fafafa;
+    float: right;
+  }
+  
+  .msgs {
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    flex:0.7
+  }
+  .msg-left{
+    flex:0.3;
+    margin-top:80px;
+    position: sticky;   
+}
+.chatWrapper{
+    display: flex;
+    background-color: white !important;
+}
+.sidebar_items > p{
+    margin-left: 10px;
+    margin-top:8px;
+}
+.chatWith{
+    border-bottom: 1px solid cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.msg-line {
+  margin:4px, 4px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+  @media (max-width: 775px) {
+    p {
+      font-size: 20px;
+    }
+    .sent {
+      padding: 10px 10px 0 10px;
+    }
+    .received {
+      padding: 10px 10px 0 10px;
+    }
+    img {
+      height: 35px;
+      margin-top: -10px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    p {
+      font-size: 15px;
+    }
+    .sent {
+      padding: 7px 7px 0 7px;
+    }
+    .received {
+      padding: 7px 7px 0 7px;
+    }
+    img {
+      height: 30px;
+      margin-top: -7px;
+    }
+  }
+
