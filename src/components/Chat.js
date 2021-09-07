@@ -37,7 +37,7 @@ const Chat = () => {
     },[] );
 
     const initChat = (otherUser) => {
-        dispatch(getMessages(user.uid, receiverUID));
+        dispatch(getMessages(user.uid, otherUser.uid));
         setChatStarted(true);
         setChatUser(otherUser.userName);
         setReceiverUID(otherUser.uid);        

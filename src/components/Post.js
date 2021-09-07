@@ -12,7 +12,7 @@ const Post = ({key,name, description, message, postUrl,shareImage,shareMedia }) 
             <div className="post_header">
                 <Avatar className="sidebar_avatar" src={postUrl? postUrl:"./images/avatar.jpg"}/>
                 <div className="post_info">
-                    <h2>{name.split('|').[0]}</h2>
+                    <h4>{name.split('|')[0]}</h4>
                     <p>{description}</p>
                 </div>
             </div>
